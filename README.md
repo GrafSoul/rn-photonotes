@@ -11,6 +11,7 @@ Example of an app for Android and iOs made using the React Native framework base
 [x] Add navigation (React Navigation 4).  
 [x] Add icons for menu elements.  
 [x] Add Drawer.
+[x] Add Redux.
 
 ## Clone, Install & Start
 
