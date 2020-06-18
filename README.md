@@ -10,8 +10,10 @@ Example of an app for Android and iOs made using the React Native framework base
 [x] Add styling components (theme.js).  
 [x] Add navigation (React Navigation 4).  
 [x] Add icons for menu elements.  
-[x] Add Drawer.
-[x] Add Redux.
+[x] Add Drawer.  
+[x] Add Redux.  
+[x] Add SQLite.  
+[x] Add Native Components.
 
 ## Clone, Install & Start
 
@@ -49,4 +51,4 @@ yarn run web
 
 ```
 
-© 2020 | Photo Notes App.
+2020 | Photo Notes App.
