@@ -2,6 +2,8 @@
   "expo": {
     "name": "Photo Notes App",
     "slug": "rn-photonotes-app",
+    "privacy": "unlisted",
+    "sdkVersion": "37.0.0",
     "platforms": [
       "ios",
       "android"
@@ -12,7 +14,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "cover",
-      "backgroundColor": "#242832"
+      "backgroundColor": "#0d2742"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,8 +23,14 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.grafsoul.photo-notes-app",
+      "buildNumber": "1.0.0"
     },
-    "android": {}
+    "android": {
+      "package": "com.grafsoul.photo_notes_app",
+      "versionCode": 1,
+      "permissions": ["CAMERA", "WRITE_EXTERNAL_STORAGE"]
+    }
   }
 }
